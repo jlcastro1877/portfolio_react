@@ -3,7 +3,7 @@ import { data } from "../data/data.js";
 import Navbar from "./Navbar.jsx";
 import Footer from "./Footer.jsx";
 
-const Work = () => {
+const Portfolio = () => {
   // projects file
   const project = data;
   //setProject(data);
@@ -12,7 +12,7 @@ const Work = () => {
     <>
       <Navbar />
       <div
-        name="work"
+        name="portfolio"
         className="w-full md:h-[52rem] text-gray-300 bg-[#3d6462]"
       >
         <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
@@ -68,4 +68,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Portfolio;

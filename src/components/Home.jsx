@@ -12,7 +12,6 @@ const Home = () => {
 
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        {/* <img class="object-center sm:object-left" src={deved} /> */}
         <div>
           <img className="object-fit: contain h-48 w-96 " src={deved}></img>
         </div>
