@@ -3,9 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import Home from "./components/Home";
 import About from "./components/About";
-import ErrorPage from "./components/ErrorPage";
-import Skills from "./components/Skills";
-import Work from "./components/Work";
+import Portfolio from "./components/Portfolio";
 import Contact from "./components/Contact";
 
 import App from "./App";
@@ -17,27 +15,23 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
-    errorElement: <ErrorPage />,
     children: [
       {
         path: "/",
         element: <Home />,
       },
       {
+        path: "/home",
+        element: <Home />,
+      },
+
+      {
         path: "about",
         element: <About />,
       },
       {
-        path: "skills",
-        element: <Skills />,
-      },
-      {
-        path: "skills",
-        element: <Skills />,
-      },
-      {
-        path: "work",
-        element: <Work />,
+        path: "portfolio",
+        element: <Portfolio />,
       },
       {
         path: "contact",

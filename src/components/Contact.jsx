@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
+import Footer from "./Footer";
 
 const Contact = () => {
   return (
@@ -7,7 +8,7 @@ const Contact = () => {
       <Navbar />
       <div
         name="contact"
-        className="w-full h-screen bg-[#3d6462] flex justify-center items-center p-4"
+        className="w-full h-[52rem] bg-[#3d6462] flex justify-center items-center p-4"
       >
         <form
           method="POST"
@@ -43,6 +44,7 @@ const Contact = () => {
           </button>
         </form>
       </div>
+      <Footer />
     </>
   );
 };
