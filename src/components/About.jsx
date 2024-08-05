@@ -16,8 +16,8 @@ const About = () => {
             </div>
             <div></div>
           </div>
-          <div className="max-w-[1000px] w-full grid sm:grid-cols-08 gap-12 py-10">
-            <div className="sm:justify text-4xl font-bold">
+          <div className="max-w-[1000px] w-full grid sm:grid-cols-02 gap-12 py-10">
+            <div className="sm:center text-[20px] font-bold">
               <p>
                 I have a Bachelor's degree in Computer Science and an MBA in
                 Project Management (PMI). I recently completed a bootcamp in
